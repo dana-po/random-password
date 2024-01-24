@@ -1,0 +1,44 @@
+body {
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(96, 114, 116);
+}
+div {
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px hsla(240, 48%, 84%, 0.6);
+}
+#btn {
+  border: 3px solid rgb(96, 114, 116);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 1em;
+  background-color: rgb(178, 165, 155);
+  color: rgb(54, 64, 65);
+}
+
+#passwordOutput {
+  color: rgb(242, 242, 242);
+  font-weight: bolder;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.2em;
+  }
+
+  div {
+    max-width: 90%;
+  }
+
+  #btn {
+    font-size: 0.8em;
+  }
+}
